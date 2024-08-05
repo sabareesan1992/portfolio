@@ -48,13 +48,17 @@ header
       align-items: center;
       z-index: 5;
       justify-content: space-between;
-      
+      transition-duration: 1s;
+      transition-delay: 3s;
       width: 100%;
       background-color:#026CF7;
       height: 3em;  
+      animation: header 1s ease  1;
       backdrop-filter: blur(10px);
       box-shadow: 0px 8px 5px -3px rgba(0,0,0,0.-1); 
 }
+
+     
 #profile{
      
      position: relative;
@@ -69,7 +73,7 @@ header
      color: aqua;
      height: 90vh;
      width: 50%;
-     transition: all 3s ;
+     transition: all 3s 2s ;
      box-shadow:  0px 0px 35px 14px rgb(19, 126, 193);
      transform: scale(.9);
      animation: rotate 2s infinite;
@@ -144,6 +148,7 @@ nav ul li
 }
 nav li a
 {
+     position: relative;
      padding: 0.5em;
      text-decoration: none;
      text-decoration: none;
@@ -151,9 +156,24 @@ nav li a
      transition: 1s;
      color:black
 }
+nav li a::after{
+     content: "";
+     position: absolute;
+     background-color: #ffffff;
+     height: 3px;
+     transition-duration: 1s;
+     left: 10%;
+     bottom: 3px;
+     
+}
 nav li a:hover{
      color:beige;
      background-color: rgb(56, 28, 28);
+     
+
+}
+nav li a:hover::after{
+     width: 80%;
 }
 
 main
@@ -164,6 +184,16 @@ main
      display: inline-flex;
      justify-content: space-evenly;
      align-items:center;
+     /* transition-delay: 3s; */
+     animation-name: main;
+     animation-delay: 2s;
+     animation-duration: 1s;
+}
+@keyframes main {
+     from{position: relative;
+     margin-left: 0px;}
+     to{display: inline-flex;}
+     
 }
 
 #About
