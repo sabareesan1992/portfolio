@@ -1,0 +1,66 @@
+@media only screen and (max-width: 768px)
+{
+     #main{
+          position: relative;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          top: 15vh;
+          flex-wrap: wrap-reverse;
+          flex-direction: row;
+     }
+     #profile{
+          position: relative;
+          top: 1vh;
+          background-size: cover;
+          border-radius: 50%;
+          height: 70vh;
+          width: 80vw;
+     }
+     
+     #About{
+          position: relative;
+          top: 20vh;
+          /* height: 100vh; */
+     
+          
+     }
+     .profil
+     {
+          display: none;
+
+          position: absolute;
+          /* height: 1px;
+          width: 1px; */
+     }
+     .me h1{
+          text-align: center;
+     }
+     .me{
+          width: 100%;    
+     }
+     .exp{
+          position: relative;
+          top: 20vh;
+     }
+     #Experience{
+          display: inline-flex;
+          position: relative;
+          top: 20vh;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: space-around;
+          gap: 10px;
+          height: max-content;
+     }
+     #Experience >div
+     {
+          width: 80%;
+          position: relative;
+     }
+     .view-project{
+          position: relative;
+          top: 1%;
+          
+     }
+}
