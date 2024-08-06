@@ -48,10 +48,10 @@ header
       align-items: center;
       z-index: 5;
       justify-content: space-between;
-      transition-duration: 1s;
-      transition-delay: 3s;
+      transition-duration: 3s;
+     
       width: 100%;
-      background-color:#026CF7;
+      background-color:#0664de;
       height: 3em;  
       animation: header 1s ease  1;
       backdrop-filter: blur(10px);
@@ -73,10 +73,10 @@ header
      color: aqua;
      height: 90vh;
      width: 50%;
-     transition: all 3s 2s ;
+     transition: all 1s ;
      box-shadow:  0px 0px 35px 14px rgb(19, 126, 193);
      transform: scale(.9);
-     animation: rotate 2s infinite;
+     animation: rotate 1s infinite;
      
 }
   #profile:hover,.profil:hover{
@@ -252,7 +252,7 @@ main
   }
 #resume{
      text-decoration: none;
-     border: 5px solid rgb(39, 133, 164);
+     border: 3px solid rgb(243, 243, 243);
      padding: 5px 5px;
      position: relative;
      left: 10px;
