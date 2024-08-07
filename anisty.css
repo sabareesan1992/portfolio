@@ -1,5 +1,9 @@
 @media only screen and (max-width: 768px)
 {
+
+     body{
+          width: 100vw;
+     }
      #main{
           position: relative;
           height: 100vh;
@@ -8,6 +12,12 @@
           top: 15vh;
           flex-wrap: wrap-reverse;
           flex-direction: row;
+     }
+     header nav{
+          display: none;
+     }
+     header p{
+          font-size: 2rem;
      }
      #profile{
           position: relative;
@@ -50,17 +60,26 @@
           flex-wrap: wrap;
           flex-direction: row;
           justify-content: space-around;
-          gap: 10px;
-          height: max-content;
+          align-items: center;
+          gap: 10vh;
+          height:auto;
      }
      #Experience >div
      {
           width: 80%;
           position: relative;
+          height: auto;
      }
-     .view-project{
+     .tool-tip{
           position: relative;
-          top: 1%;
+          
+         
           
      }
+     #cont{
+          position: relative;
+          top: 15vh;
+     }
+    
+
 }
