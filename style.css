@@ -12,6 +12,7 @@ body
 {
      background-color: rgb(6, 2, 96);
      color: white;
+     width: 100vw;
 }
 header p
 {
@@ -84,7 +85,7 @@ header
      transform:scale(1);
   }
   
-/* /* @keyframes rotate{
+ @keyframes rotate{
      0%{
           border-radius: 73% 27% 36% 64% / 49% 50% 50% 51%; 
      }
@@ -94,8 +95,8 @@ header
      100%{
           border-radius: 73% 27% 36% 64% / 49% 50% 50% 51%;
      }
-      */
-
+     
+ }
 header nav
 {
      
@@ -200,7 +201,7 @@ main
 #About
 {
    
-     line-height: 2em;
+     line-height: 1.5em;
      
     width: 100%;
      font-size: 29px;
@@ -384,12 +385,12 @@ section h1
   text-align-last:left;
   line-height: 1.4em;
   /* Position the tooltip */
-  position:relative;
+  position:absolute;
   height: max-content;
   z-index: 1;
   top: 100%;
   left: 30%;
-  /* margin-left:-21px; */
+  margin-left:2px;
 }
 h1{
      text-align: center;
