@@ -246,7 +246,8 @@ main
      width: 50%;
   }
   .me p{
-     font: 25px;
+     font: 1.4rem;
+     line-height: 2em;
   }
   .me h1{
      text-align: left;
@@ -275,7 +276,7 @@ section h1
      margin: auto 0;
      position: relative;
      flex: wrap;
-     width: 100vmax;
+     width: 100vw;
      padding: 30px 0;
      height: 100%;
      font-family: bitter;
@@ -328,7 +329,7 @@ section h1
      transform: scale(1.1);
 }
 .view-project {
-     position: relative;
+     position: absolute;
      left:-100px;
      display: inline-block;
      transition: 2s;
@@ -373,7 +374,8 @@ section h1
 .tool-tip
 {
   visibility: hidden;
-  width: 386px;
+  position:absolute;
+  width: 50%;
   background-color: rgb(12, 121, 238);
   color: #f0eded;
   box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
@@ -390,7 +392,7 @@ section h1
   z-index: 1;
   top: 100%;
   left: 30%;
-  margin-left:2px;
+  margin-left:2%;
 }
 h1{
      text-align: center;
@@ -412,8 +414,8 @@ h1{
      
 }
 footer img{
-     height: 80px;
-     width: 80px;
+     height: 3rem;
+     width: 3rem;
 }
 #linkedin{
   transition: all 1s;
@@ -442,7 +444,7 @@ footer img{
 } */
 #cont{
      position: relative;
-     margin-top: 10px;
+     margin-top: 10vh;
 }
 #cont h1{
      position: relative;
