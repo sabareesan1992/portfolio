@@ -10,9 +10,11 @@ html
 }
 body
 {
-     background-color: rgb(54, 60, 103);
-     color: white;
+     background-color: rgba(5, 180, 255, 0.592);
+     color: rgb(255, 255, 255);
      width: 100vw;
+     overflow-x: hidden;
+     
 }
 header p
 {
@@ -23,6 +25,7 @@ header p
      font-weight: 300;
      font-size: 3.5rem;
      font-style: normal;
+     color: rgb(0, 0, 0);
 }
 #font:hover{
      text-shadow: 3px -2px 17px rgba(0,0,0,0.43);
@@ -30,6 +33,7 @@ header p
 main span{
      font-family: "Pacifico", cursive;
      font-size: 50px;
+     color: black;
 }
 p >span{
      
@@ -52,11 +56,11 @@ header
       transition-duration: 3s;
      
       width: 100%;
-      background-color:#0664de;
+      
       height: 3em;  
       animation: header 1s ease  1;
-      backdrop-filter: blur(10px);
-      box-shadow: 0px 8px 5px -3px rgba(0,0,0,0.-1); 
+      backdrop-filter: blur(5px);
+      box-shadow: 0px 8px 5px 20px rgba(black); 
 }
 
      
@@ -71,7 +75,7 @@ header
      background-size: contain;
      background-position: center;
      border-radius: 73% 27% 36% 64% / 49% 50% 50% 51% ;
-     color: aqua;
+     color: rgb(58, 125, 225);
      height: 90vh;
      width: 50%;
      transition: all 1s ;
@@ -111,7 +115,7 @@ header nav
      font-weight: bolder;
 }
 #font,#resume{
-     color: white;
+     color: rgb(41, 98, 173);
      
      border-radius: 10px;
      padding: 5px 3px;
@@ -120,14 +124,13 @@ header nav
 } 
 
 #font:hover{
-     background-color: aqua;
+     background-color: rgb(255, 255, 255);
      color: black;
      transform: scale(1.5);
-     
      box-shadow: 1px 1px 40px rgba(19, 133, 220, 0.99);
 } 
 #resume:hover{
-     background-color: aqua;
+     background-color: rgb(249, 255, 255);
      color: black;
      transform: scale(1.5);
      box-shadow: 3px -2px 20px rgba(19, 133, 220, 0.99);
@@ -207,6 +210,7 @@ main
      font-size: 29px;
      position: relative;
      height: 120vh;
+     color: azure;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -268,6 +272,7 @@ section h1
      font-family: "poppins", sans-serif;
      text-align: center;
      text-decoration:underline 4px rgb(29, 86, 136);  
+     color: black;
 }
 
 #Experience 
@@ -365,11 +370,11 @@ section h1
      font-size: 1rem;
      text-align: center;
      border: 1px solid black;
-     background:linear-gradient(60deg ,rgb(148, 36, 208),rgb(26, 132, 164));
+     background:linear-gradient(60deg ,rgb(6, 120, 165),rgb(12, 140, 149));
      padding: 0px 10px;
      border-radius: 10px;
      transition: .5s;
-     box-shadow: 0px 0px 137px 31px rgba(46,185,255,0.49);
+     box-shadow: 0px 0px 137px 3rem rgba(21, 97, 135, 0.49);
 }
 .btn:hover{
      visibility: hidden;
@@ -378,9 +383,9 @@ section h1
 {
   visibility: hidden;
   width: 386px;
-  background-color: rgb(12, 121, 238);
+  background-color: rgba(72, 154, 213, 0.533);
   color: #f0eded;
-  box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 14px -3px rgba(10, 183, 236, 0.75);
   text-indent: 1vw;
   border-radius: 6px;
   padding: 5px 0;
@@ -402,6 +407,7 @@ h1{
      position: relative;
      font-family: "poppins";
      margin: auto;
+     color:rgb(25, 23, 25);
 }
 .view-project:hover .tool-tip
 {
@@ -448,7 +454,7 @@ footer img{
       
    }
    #gamil:hover{
-        transform: scale(1.5);
+        transform: scale(1.1);
    }
 /* #cont{
      display: flex;
@@ -475,6 +481,6 @@ footer{
 }
 footer img:hover{
      transform: rotate(360deg);
-     border-radius: 50%;
-     box-shadow: 0 0 30px aqua;
+     box-shadow: 0px 2px 35px 0px rgba(0,0,0,1);
+     
 }
