@@ -1,8 +1,16 @@
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 600px)
 {
+     *{
+          margin:0;
+          
+          padding:0;
+     }
 
      body{
-          width: 100vw;
+          background-color: rgba(5, 180, 255, 0.592);
+     color: rgb(255, 255, 255);
+          overflow-x: hidden;
+          scroll-behavior: smooth;
      }
      #main{
           position: relative;
@@ -26,19 +34,23 @@
           border-radius: 50%;
           height: 70vh;
           width: 80vw;
+          animation: step-end;
      }
-     
+     #prof{
+          position: relative;
+          left: 0;
+     }  
      #About{
           position: relative;
           top: 20vh;
           height: max-content;
           box-shadow: 1px 10px 10px 0px rgb(41, 144, 227);
-          align-items:center;
+          
      }
      .profil
      {
           display: none;
-
+          
           position: absolute;
           /* height: 1px;
           width: 1px; */
@@ -48,7 +60,8 @@
      }
      .me{
           width: 100%;  
-          position: relative;  
+          position: relative; 
+          font-size: 1.5rem; 
      }
      .exp{
           position: relative;
@@ -73,14 +86,15 @@
      }
      .tool-tip{
           position: relative;
-          
-         
-          
      }
      #cont{
           position: relative;
           top: 15vh;
      }
+    footer img{
+          height: 5rem;
+          width: 5rem;
+    }
     
 
 }
