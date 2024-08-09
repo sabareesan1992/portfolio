@@ -33,7 +33,7 @@
           top: 20vh;
           height: max-content;
           box-shadow: 1px 10px 10px 0px rgb(41, 144, 227);
-          
+          align-items:center;
      }
      .profil
      {
