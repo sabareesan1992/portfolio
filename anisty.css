@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px)
+@media  (max-width: 700px)
 {
      *{
           margin:0;
@@ -82,18 +82,21 @@
      {
           width: 80%;
           position: relative;
-          height: auto;
+          height:max-content;
+          color:black;
+          
+          font-weight: bolder;
      }
-     .tool-tip{
-          position: relative;
-     }
+     
      #cont{
           position: relative;
-          top: 15vh;
+          top: 20vh;
      }
-    footer img{
-          height: 5rem;
-          width: 5rem;
+    
+     footer img{
+          height: 3rem;
+          width: 3rem;
+     
     }
     
 
