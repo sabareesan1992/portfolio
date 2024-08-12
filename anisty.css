@@ -44,6 +44,7 @@
           position: relative;
           top: 20vh;
           height: max-content;
+         
           box-shadow: 1px 10px 10px 0px rgb(41, 144, 227);
           
      }
@@ -62,6 +63,7 @@
           width: 100%;  
           position: relative; 
           font-size: 1.5rem; 
+          text-align: left;
      }
      .exp{
           position: relative;
